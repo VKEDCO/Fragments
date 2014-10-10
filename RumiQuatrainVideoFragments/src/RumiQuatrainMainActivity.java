@@ -39,7 +39,7 @@ public class RumiQuatrainMainActivity extends Activity {
 		Log.d(LOGTAG, "onCreate()");
         super.onCreate(savedInstanceState);
 		FragmentManager.enableDebugLogging(true);
-        setContentView(R.layout.rumi_vid_framents_main);
+        setContentView(R.layout.rumi_vid_fragments_main);
         mRes = getResources();
         mFrgmntMngr = getFragmentManager();
         mThisAct = this;
