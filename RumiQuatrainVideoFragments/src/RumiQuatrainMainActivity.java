@@ -1,13 +1,21 @@
 package org.vkedco.mobappdev.rumi_quatrain_fragments;
 
 
-// bugs to vladimir dot kulyukin at gmail dot com
-// main activity of the application that displays fragments 
-// with Rumi's quatrains.
-// all files in /res/animator, /res/layout/, /res/layout-land/,
-// and /res/values/ are given in /Fragments/RumiQuatrainFragments/.
-// I did not place the videos into this repo to save space
-// on my hard disk partition dedicated to github. 
+/*
+==================================================================
+main activity of the application that displays fragments with Rumi's quatrains.
+all files in /res/animator, /res/layout/, /res/layout-land/,
+and /res/values/ are given in /Fragments/RumiQuatrainFragments/.
+
+I did not place the videos into this repo to save space on my hard disk 
+partition dedicated to github. The videos explicitly mentioned in QuatrainTextDisplayFragment.java.
+They should be placed in /res/raw. In QuatrainTextDisplayFragment.java,
+I assume that the videos are /res/raw/clover.mp4, /res/raw/mushrooms.mp4, 
+/res/raw/pinkrose.mp4, /res/raw/rose.mp4, /res/raw/russianornament.wmv.
+If you want to play your own videos, change QuatrainTextDisplayFragment.onCreateView().
+
+bugs to vladimir dot kulyukin at gmail dot com
+*/
 
 import android.app.Activity;
 import android.app.Fragment;
