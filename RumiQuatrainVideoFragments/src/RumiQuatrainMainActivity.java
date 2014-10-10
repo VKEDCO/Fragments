@@ -1,6 +1,14 @@
 package org.vkedco.mobappdev.rumi_quatrain_fragments;
 
 
+// bugs to vladimir dot kulyukin at gmail dot com
+// main activity of the application that displays fragments 
+// with Rumi's quatrains.
+// all files in /res/animator, /res/layout/, /res/layout-land/,
+// and /res/values/ are given in /Fragments/RumiQuatrainFragments/.
+// I did not place the videos into this repo to save space
+// on my hard disk partition dedicated to github. 
+
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
